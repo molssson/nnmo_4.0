@@ -21,8 +21,6 @@ var noise = [];
 var noisePointer = 0;
 
 (function () {
-    //setInterval(render, 200);
-    //setTimeout(toggleFA, 1000);
     for (var j = 0; j < 3; j++) {
         noise[j] = [];
         for (var i = 0; i < window.innerWidth; i++)
