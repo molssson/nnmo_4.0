@@ -55,7 +55,7 @@
         window.cssMaxWidth = window.innerWidth;
         window.cssXPos = 0;
 
-        setInterval(MoveBackGround, 20);
+        setInterval(MoveBackGround, 40);
     })();
 
     function getWidthOfBackground() {

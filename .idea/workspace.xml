@@ -31,7 +31,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="33" selection-start="687" selection-end="687" vertical-scroll-proportion="-3.7974684" vertical-offset="0" max-vertical-offset="1545">
+                <state line="9" column="93" selection-start="320" selection-end="320" vertical-scroll-proportion="-3.125" vertical-offset="60" max-vertical-offset="1545">
                   <folding />
                 </state>
               </provider>
@@ -40,7 +40,7 @@
           <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/js.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="37" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+                <state line="57" column="37" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="1200">
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
           <file leaf-file-name="horizon.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/horizon.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="14" selection-start="516" selection-end="516" vertical-scroll-proportion="-1.1202114" vertical-offset="1178" max-vertical-offset="1935">
+                <state line="94" column="23" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.2668428" vertical-offset="1208" max-vertical-offset="1995">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -252,14 +252,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15138888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -549,37 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/IMGP7159.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/IMGP7297.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/IMGP7893-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/IMGP7893.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/logo-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/plane.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/skyline.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -607,20 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="687" selection-end="687" vertical-scroll-proportion="-3.7974684" vertical-offset="0" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="37" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/skrollr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="47" selection-start="587" selection-end="587" vertical-scroll-proportion="-3.75" vertical-offset="3390" max-vertical-offset="25755">
@@ -628,9 +584,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="37" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/skyline.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="93" selection-start="320" selection-end="320" vertical-scroll-proportion="-3.125" vertical-offset="60" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/horizon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="516" selection-end="516" vertical-scroll-proportion="-1.1202114" vertical-offset="1178" max-vertical-offset="1935">
+        <state line="94" column="23" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.2668428" vertical-offset="1208" max-vertical-offset="1995">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

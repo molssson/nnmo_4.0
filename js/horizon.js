@@ -24,7 +24,7 @@ var noisePointer = 0;
     for (var j = 0; j < 3; j++) {
         noise[j] = [];
         for (var i = 0; i < window.innerWidth; i++)
-            noise[j][i] = noiseGen(4);
+            noise[j][i] = noiseGen(6);
     }
 
     render();
@@ -92,6 +92,8 @@ function render() {
     offsetTop = 100;
     amplitude = 50;
 
+    console.log(noise);
+
     draw(200, 600, color.white, color.blue, 5);
     draw(300, 600, color.blue, color.blue, 10);
     draw(0, 0, color.white, color.blue, 5);
@@ -121,4 +123,6 @@ function toggleFA() {
 canvas.onmousemove = function (e) {
     mouseX = e.layerX;
     mouseY = e.layerY;
+
+    render();
 };
