@@ -1,0 +1,278 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import "button-animation";
+
+@primary-color: #009688;
+@light-color: #B2DFDB;
+@dark-color: #00695C;
+
+@primary-grey: #9E9E9E;
+@light-grey: #F5F5F5;
+@dark-grey: #212121;
+@superdark-grey: #080808;
+
+@triangle-size: 100px;
+@triangle-color: @primary-color;
+
+html, body {
+  position: relative;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background-color: @primary-color;
+  overflow-x: hidden;
+}
+
+body {
+  height: auto;
+}
+
+img {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+canvas {
+  position: relative;
+  width: 100%;
+}
+
+#cont {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+}
+
+p::selection, h2::selection, h3::selection {
+  background: #FF9800;
+}
+
+.laces {
+  position: relative;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.ch {
+  height: 300px;
+}
+
+.bordered {
+  border: 5px solid @dark-grey;
+}
+
+.dark {
+  background-color: @dark-grey;
+}
+
+#enter-button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -75px;
+  text-align: center;
+  padding-top: 9px;
+  text-decoration: none;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    text-decoration: none;
+    color: @dark-grey;
+  }
+}
+
+a {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: @primary-grey;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    text-decoration: none;
+    color: @light-grey;
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  background-image: url("../images/skyline.png");
+  background-size: cover;
+  background-repeat: repeat-x;
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -130px 0 0 -310px;
+  }
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 130px 0 0 -315px;
+    font-size: 49px;
+    color: @primary-grey;
+  }
+}
+
+#logo-brand {
+  top: 170px;
+  width: 150px;
+  position: fixed;
+  left: 370px;
+  z-index: 1000;
+
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+nav {
+  font-family: 'Oswald', sans-serif;
+  .navbar-header a, .collapse li a {
+    color: @primary-grey;
+    text-spacing: 10px;
+  }
+  &.navbar {
+    border: none;
+    border-radius: 0;
+    background-color: @superdark-grey;
+    margin: 0;
+  }
+}
+
+section {
+  position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 80px 0 80px 0;
+  img {
+    position: relative;
+  }
+  div {
+    position: relative;
+  }
+  h2 {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: @dark-grey;
+    text-transform: uppercase;
+  }
+  h3 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    color: @primary-grey;
+    margin: 0 0 15px 0;
+  }
+  p {
+    position: relative;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: @primary-grey;
+  }
+  .quote {
+    float: right;
+    text-align: right;
+    color: @dark-grey;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+  }
+  .quote-main {
+    text-align: right;
+  }
+  .large {
+    font-size: 40px;
+    color: @dark-grey;
+    font-family: 'Oswald', sans-serif;
+
+  }
+  &.dark {
+    text-align: center;
+    h2 {
+      color: @primary-grey;
+      font-family: 'Quicksand', sans-serif;
+      margin: 0 0 60px 0;
+    }
+    h3 {
+      margin: 0;
+    }
+    a {
+      position: relative;
+      color: @primary-grey;
+      font-size: 20px;
+      &:hover {
+        color: @light-grey;
+      }
+    }
+  }
+  .images {
+    position: relative;
+    min-height: 200px;
+    margin-top: 100px;
+    img {
+      position: relative;
+      width: calc(100% / 14);
+    }
+  }
+  .profile:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+footer {
+  position: relative;
+  background-color: @dark-grey;
+  width: 100%;
+}
+
+/**Geometry*/
+
+.triangle-bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: @triangle-size solid @triangle-color;
+  border-left: @triangle-size solid transparent;
+}
+
+.triangle-topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: @triangle-size solid @triangle-color;
+  border-left: @triangle-size solid transparent;
+
+}
+
+/**Animations*/
+
+.smooth {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out false;
+  -o-transition: all 500ms ease-in-out false;
+  transition: all 500ms ease-in-out;
+}
